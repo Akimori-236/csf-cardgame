@@ -14,7 +14,7 @@ export class HandComponent {
   hand!: Hand
 
   @Output()
-  onDiscard = new Subject<DiscardInfo>()
+  onDiscard = new Subject<DiscardInfo>
 
   // click action will call this
   discard(index: number) {
